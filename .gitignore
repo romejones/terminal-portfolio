@@ -1,0 +1,19 @@
+# macOS system files
+.DS_Store
+
+# Node.js modules (if you use Node later)
+node_modules/
+
+# Python bytecode (just in case)
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Build artifacts
+dist/
+build/
+
+# Environment variables
+.env
+

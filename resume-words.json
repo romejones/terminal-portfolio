@@ -1,0 +1,15 @@
+[
+  { "text": "AWS", "weight": 20, "fact": "Designed and deployed scalable infrastructure on AWS." },
+  { "text": "GCP", "weight": 18, "fact": "Led migrations and architecture reviews using Google Cloud." },
+  { "text": "Terraform", "weight": 16, "fact": "Used for infrastructure automation across environments." },
+  { "text": "Python", "weight": 14, "fact": "Scripted automation, data tools, and DevOps utilities." },
+  { "text": "Kubernetes", "weight": 13, "fact": "Supported container orchestration in hybrid environments." },
+  { "text": "Linux", "weight": 12, "fact": "Administered production Linux systems for 15+ years." },
+  { "text": "Cloud Architecture", "weight": 11, "fact": "Led cloud strategy for Fortune 100 and startups." },
+  { "text": "CI/CD", "weight": 10, "fact": "Implemented pipelines using GitHub Actions and Jenkins." },
+  { "text": "Security", "weight": 9, "fact": "Designed secure, compliant cloud environments." },
+  { "text": "DevOps", "weight": 8, "fact": "Promoted DevOps practices for better collaboration and speed." },
+  { "text": "Monitoring", "weight": 7, "fact": "Deployed observability tools like Grafana and Prometheus." },
+  { "text": "Compliance", "weight": 6, "fact": "Navigated HIPAA, SOC2, and GDPR requirements." },
+  { "text": "Technical Account Manager", "weight": 5, "fact": "Supported enterprise customers at AWS and SADA." }
+]

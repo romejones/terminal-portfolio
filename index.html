@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jeremy Jones – Terminal</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Jeremy's Terminal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="boot-sequence">
-    <pre id="boot-text"></pre>
+  <div id="terminal">
+    <div id="output">Welcome to my terminal portfolio.<br>Type <code>help</code> for a list of commands.</div>
+    <input type="text" id="input" autofocus />
   </div>
-  <div id="terminal" class="hidden">
-    <div class="terminal-output"></div>
-    <div class="terminal-input">
-      <span>[~]</span> <input type="text" id="user-input" autofocus />
-    </div>
-  </div>
+
+  <!-- Canvas for Word Cloud -->
+  <canvas id="wordcloud-canvas" width="800" height="500" style="display: none; position: absolute; top: 50px; left: 0; right: 0; margin: auto; z-index: 10;"></canvas>
+
+  <!-- Fact Overlay -->
+  <div id="fact-overlay" style="display: none; position: absolute; bottom: 20px; left: 20px; background: rgba(0,0,0,0.85); color: white; padding: 10px; border-radius: 6px; font-family: monospace; max-width: 400px; z-index: 11;"></div>
+
+  <script src="libs/wordcloud2.js"></script>
+  <script src="wordcloud.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,39 +1,21 @@
 body {
     margin: 0;
+    padding: 0;
     background: black;
-    color: #00ff99;
-    font-family: 'Courier New', monospace;
-    font-size: 1.1em;
-    overflow: hidden;
-  }
-  
-  #boot-sequence {
-    padding: 20px;
-    white-space: pre-wrap;
+    color: green;
+    font-family: monospace;
   }
   
   #terminal {
-    display: flex;
-    flex-direction: column;
     padding: 20px;
   }
   
-  .hidden {
-    display: none;
-  }
-  
-  .terminal-output {
-    flex: 1;
-    margin-bottom: 10px;
-  }
-  
-  .terminal-input input {
+  #input {
     background: black;
+    color: green;
     border: none;
-    color: #00ff99;
-    font-family: inherit;
-    font-size: inherit;
-    width: 80%;
     outline: none;
+    font-family: monospace;
+    font-size: 16px;
   }
   

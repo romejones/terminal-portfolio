@@ -1,50 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  padding: 0;
-  background: black;
-  color: #00ff00;
-  font-family: "Courier New", Courier, monospace;
-  text-transform: uppercase;
-  overflow: hidden;
-}
-
-/* Boot screen */
-#boot-sequence {
-  padding: 20px;
-  white-space: pre-wrap;
-  font-size: 1.2em;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* Terminal */
-#terminal {
-  padding: 20px;
-  height: 100vh;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-#output {
-  flex-grow: 1;
-  overflow-y: auto;
-  margin-bottom: 10px;
-}
-
-#input {
-  background: black;
-  color: #00ff00;
-  border: none;
-  outline: none;
-  font-family: inherit;
-  font-size: 16px;
-  width: 100%;
-}
-
-/* Hide elements */
-.hidden {
-  display: none;
+  @apply bg-background text-foreground font-display;
 }

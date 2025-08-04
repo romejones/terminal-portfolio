@@ -5,11 +5,11 @@ import PeerReviews from "../components/PeerReviews";
 
 export default function Home() {
   return (
-    <main className="p-6 space-y-6">
+    <>
       <ProfessionalInfo />
       <Experience />
       <Education />
       <PeerReviews />
-    </main>
+    </>
   );
 }

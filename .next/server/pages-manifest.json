@@ -2,9 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
+  "/misc": "pages/misc.js",
+  "/schedule": "pages/schedule.js",
   "/cv": "pages/cv.js",
   "/projects": "pages/projects.js",
-  "/misc": "pages/misc.js",
-  "/schedule": "pages/schedule.js"
+  "/": "pages/index.js"
 }

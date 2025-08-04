@@ -27,7 +27,7 @@ export default function Topbar() {
       <div className="relative w-64">
         <input
           type="text"
-          placeholder="Find skills, projects, etc."
+          placeholder="find things"
           className="w-full border-2 border-black bg-white px-3 py-1 text-sm font-mono focus:outline-none"
         />
         <Search className="absolute right-2 top-1.5" size={16} />

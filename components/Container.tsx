@@ -1,9 +1,11 @@
+// components/Container.tsx
+
 import Sidebar from "./Sidebar";
 import Topbar from "./Topbar";
 
 export default function Container({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex h-screen bg-[#F7F5E6] text-black font-display">
+    <div className="flex h-screen bg-topbar text-textPrimary font-display">
       <div className="w-64 shrink-0 hidden sm:block">
         <Sidebar />
       </div>

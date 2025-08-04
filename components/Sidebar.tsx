@@ -1,9 +1,11 @@
+// components/Sidebar.tsx
+
 import { Home, Calendar, Users, FileText, Sliders, LogOut } from "lucide-react";
 import Link from "next/link";
 
 export default function Sidebar() {
   return (
-    <aside className="bg-sidebar text-black w-full sm:w-64 h-screen p-6 border-4 border-black flex flex-col justify-between">
+    <aside className="bg-sidebar text-textPrimary w-full sm:w-64 h-screen p-6 border-4 border-black flex flex-col justify-between">
       <div className="space-y-6">
         <div className="text-2xl font-extrabold border-b-4 border-black pb-2">JEDI</div>
         <nav className="flex flex-col space-y-4 text-sm font-mono">
@@ -23,13 +25,13 @@ export default function Sidebar() {
 }
 
 function SidebarLink({ href, icon, children }: { href: string; icon: React.ReactNode; children: React.ReactNode }) {
-    return (
-      <Link
-        href={href}
-        className="flex items-center gap-2 hover:underline underline-offset-4 hover:text-accent"
-      >
-        {icon}
-        {children}
-      </Link>
-    );
-  }  
+  return (
+    <Link
+      href={href}
+      className="flex items-center gap-2 hover:underline underline-offset-4 hover:text-accent"
+    >
+      {icon}
+      {children}
+    </Link>
+  );
+}

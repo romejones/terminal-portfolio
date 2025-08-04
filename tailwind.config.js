@@ -1,5 +1,4 @@
 // tailwind.config.js
-
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -8,8 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        sidebar: "#FFEE58",      // pale yellow
-        accent: "#F44336",       // strong red accent for hover
+        sidebar: "#FFF176",      // Sidebar yellow
+        topbar: "#FFFDE7",       // Topbar cream
+        panel: "#FFECB3",        // Content sections
+        textPrimary: "#2B2B2B",  // Main headings
+        textSecondary: "#4E4E4E",// Body text
+        accent: "#FF5252"        // Hover / accent
       },
     },
   },

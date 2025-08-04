@@ -1,38 +1,43 @@
-# Terminal Portfolio – Jeremy Jones
+# Neo-Brutalist Portfolio
 
-A terminal-inspired interactive portfolio that reflects both my technical capabilities and creative instincts. It pays homage to retro computing aesthetics and experimental web experiences (inspired by projects like Massive Attack’s digital art sites). Visitors interact with a simulated terminal environment to learn who I am, what I’ve built, and how I think.
+A modern, modular developer portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS**, styled in a bold **Neo-Brutalist** aesthetic.
 
----
+This project is designed to showcase professional experience, education, peer reviews, and credentials in a striking yet accessible layout inspired by the "E-learning platform in neo-brutalism style" Dribbble design.
 
-## 🎯 Purpose
+## 🧱 Tech Stack
 
-This is not just a resume — it's a digital space.
+- **Next.js** (React-based framework)
+- **TypeScript** (for strong typing)
+- **Tailwind CSS** (utility-first styling)
+- **Modular Components** (clean, reusable JSX)
+- **Responsive Grid Layout** (mobile and desktop support)
 
-- To showcase my skills in frontend interaction, creative coding, and infrastructure design
-- To give a glimpse into my personality and aesthetic sensibility
-- To break away from cookie-cutter portfolios and leave a lasting impression
+## 🖼️ Features
 
----
-
-## 🧩 Features
-
-- **Boot-up animation** simulates an old-school system initializing
-- **Terminal interface** responds to custom text commands
-- **Modular command system** (`about`, `projects`, `philosophy`, `weirdfact`)
-- **Retro aesthetic** using green-on-black terminal styling
-- **Clean, dependency-free frontend stack** (HTML, CSS, JS)
-- **Expandable architecture** — upcoming enhancements include:
-  - 3D terminal-in-a-room experience (Three.js)
-  - Webcam-based glitch interaction
-  - GPT-powered “Ask Jeremy” mode
-
----
+- Sidebar navigation styled in brutalist yellow
+- Grid-based layout for key sections:
+  - **Professional Info**
+  - **Work Experience**
+  - **Peer Reviews**
+  - **Education**
+- Certification badges displayed inline
+- Fully responsive and keyboard accessible
+- Optimized for future deployment on AWS
 
 ## 🚀 Getting Started
 
-To view it locally:
-
 ```bash
-git clone https://github.com/your-username/terminal-portfolio.git
-cd terminal-portfolio
-python3 -m http.server 8080
+npm install
+npm run dev
+
+npm run dev     # Start development server
+npm run build   # Build production version
+npm run start   # Run production build
+npm run lint    # Lint the codebase
+
+components/      # Modular UI components
+pages/           # Next.js pages (entry points)
+styles/          # Tailwind global styles
+public/          # Static assets (images, badges, etc.)
+tailwind.config.js
+postcss.config.js

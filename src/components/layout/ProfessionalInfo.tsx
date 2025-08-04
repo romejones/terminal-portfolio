@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { LinkedIn, GitHub } from "lucide-react";
 
 export default function ProfessionalInfo() {
   return (

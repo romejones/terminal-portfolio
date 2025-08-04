@@ -23,12 +23,12 @@ export default function Home() {
           <p className="text-sm font-mono">“Smart and brutally honest. 10/10.”</p>
         </div>
 
-        <div className="col-span-2 border-4 border-black bg-white p-6">
-          <h2 className="font-bold mb-1">Education</h2>
-          <ul className="text-sm font-mono space-y-1">
-            <li>University of Oklahoma, B.A. Philosophy</li>
-            <li>Rogers State University, A.A. Liberal Studies</li>
-          </ul>
+        <div className="col-span-2 border-4 border-black bg-[#FFEE58] p-6">
+            <h2 className="font-bold mb-1">Education</h2>
+            <ul className="text-sm font-mono space-y-1">
+                <li>University of Oklahoma, B.A. Philosophy</li>
+                <li>Rogers State University, A.A. Liberal Studies</li>
+            </ul>
         </div>
       </div>
     </Container>

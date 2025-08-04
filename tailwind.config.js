@@ -7,14 +7,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        sidebar: "#FFF176",      // Sidebar yellow
-        topbar: "#FFFDE7",       // Topbar cream
-        panel: "#FFECB3",        // Content sections
-        textPrimary: "#2B2B2B",  // Main headings
-        textSecondary: "#4E4E4E",// Body text
-        accent: "#FF5252"        // Hover / accent
+        sidebar: "#C7F2A4",       // green sidebar
+        mainbg: "#FFE993",        // yellow content card
+        cardText: "#2B2B2B",      // dark text
+        cardMuted: "#4E4E4E",     // muted text
+        accent: "#F44336",        // red hover
       },
     },
   },
   plugins: [],
-};
+}

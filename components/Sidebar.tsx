@@ -1,6 +1,6 @@
 // components/Sidebar.tsx
 
-import { Home, Calendar, Users, FileText, Sliders, LogOut } from "lucide-react";
+import { Home, Calendar, FileText, Layers, List } from "lucide-react";
 import Link from "next/link";
 
 export default function Sidebar() {
@@ -10,15 +10,11 @@ export default function Sidebar() {
         <div className="text-2xl font-extrabold border-b-4 border-black pb-2">JEDI</div>
         <nav className="flex flex-col space-y-4 text-sm font-mono">
           <SidebarLink href="/" icon={<Home size={16} />}>Home</SidebarLink>
-          <SidebarLink href="/schedule" icon={<Calendar size={16} />}>Schedule</SidebarLink>
-          <SidebarLink href="/skills" icon={<Users size={16} />}>Skills</SidebarLink>
+          <SidebarLink href="/cv" icon={<List size={16} />}>CV</SidebarLink>
           <SidebarLink href="/projects" icon={<FileText size={16} />}>Projects</SidebarLink>
-          <SidebarLink href="/preferences" icon={<Sliders size={16} />}>Preferences</SidebarLink>
+          <SidebarLink href="/schedule" icon={<Calendar size={16} />}>Schedule</SidebarLink>
+          <SidebarLink href="/misc" icon={<Layers size={16} />}>Misc</SidebarLink>
         </nav>
-      </div>
-
-      <div className="mt-10">
-        <SidebarLink href="/logout" icon={<LogOut size={16} />}>Log out</SidebarLink>
       </div>
     </aside>
   );
